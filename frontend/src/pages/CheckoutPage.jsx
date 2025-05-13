@@ -1,6 +1,7 @@
 import './CheckoutPage.css'
 import './checkout-header.css'
 
+
 export function CheckoutPage() {
     return (
         <>
@@ -8,8 +9,8 @@ export function CheckoutPage() {
                 <div class="header-content">
                     <div class="checkout-header-left-section">
                         <a href="index.html">
-                            <img class="logo" src="images/logo.png" />
-                            <img class="mobile-logo" src="images/mobile-logo.png" />
+                            <img class="logo" src="assets/logo.png" />
+                            <img class="mobile-logo" src="assets/mobile-logo.png" />
                         </a>
                     </div>
 
@@ -19,7 +20,7 @@ export function CheckoutPage() {
                     </div>
 
                     <div class="checkout-header-right-section">
-                        <img src="images/icons/checkout-lock-icon.png" />
+                        <img src="assets/icons/checkout-lock-icon.png" />
                     </div>
                 </div>
             </div>
@@ -36,7 +37,7 @@ export function CheckoutPage() {
 
                             <div class="cart-item-details-grid">
                                 <img class="product-image"
-                                    src="images/products/athletic-cotton-socks-6-pairs.jpg" />
+                                    src="assets/products/athletic-cotton-socks-6-pairs.jpg" />
 
                                 <div class="cart-item-details">
                                     <div class="product-name">
@@ -112,7 +113,7 @@ export function CheckoutPage() {
 
                             <div class="cart-item-details-grid">
                                 <img class="product-image"
-                                    src="images/products/intermediate-composite-basketball.jpg" />
+                                    src="assets/products/intermediate-composite-basketball.jpg" />
 
                                 <div class="cart-item-details">
                                     <div class="product-name">

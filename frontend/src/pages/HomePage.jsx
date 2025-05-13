@@ -1,5 +1,5 @@
 import './HomePage.css';
-
+import './header.css'
 export function HomePage() {
     return (
         <>
@@ -7,9 +7,9 @@ export function HomePage() {
                 <div className="left-section">
                     <a href="index.html" className="header-link">
                         <img className="logo"
-                            src="../assets/logo-white.png" />
+                            src="assets/logo-white.png" />
                         <img className="mobile-logo"
-                            src="../assets/mobile-logo-white.png" />
+                            src="assets/mobile-logo-white.png" />
                     </a>
                 </div>
 
@@ -17,7 +17,7 @@ export function HomePage() {
                     <input className="search-bar" type="text" placeholder="Search" />
 
                     <button className="search-button">
-                        <img className="search-icon" src="../assets/icons/search-icon.png" />
+                        <img className="search-icon" src="assets/icons/search-icon.png" />
                     </button>
                 </div>
 
@@ -28,7 +28,7 @@ export function HomePage() {
                     </a>
 
                     <a className="cart-link header-link" href="checkout.html">
-                        <img className="cart-icon" src="../assets/icons/cart-icon.png" />
+                        <img className="cart-icon" src="assets/icons/cart-icon.png" />
                         <div className="cart-quantity">3</div>
                         <div className="cart-text">Cart</div>
                     </a>
@@ -40,7 +40,7 @@ export function HomePage() {
                     <div className="product-container">
                         <div className="product-image-container">
                             <img className="product-image"
-                                src="../assets/products/athletic-cotton-socks-6-pairs.jpg" />
+                                src="assets/products/athletic-cotton-socks-6-pairs.jpg" />
                         </div>
 
                         <div className="product-name limit-text-to-2-lines">
@@ -49,7 +49,7 @@ export function HomePage() {
 
                         <div className="product-rating-container">
                             <img className="product-rating-stars"
-                                src="../assets/ratings/rating-45.png" />
+                                src="assets/ratings/rating-45.png" />
                             <div className="product-rating-count link-primary">
                                 87
                             </div>
@@ -77,7 +77,7 @@ export function HomePage() {
                         <div className="product-spacer"></div>
 
                         <div className="added-to-cart">
-                            <img src="../assets/icons/checkmark.png" />
+                            <img src="assets/icons/checkmark.png" />
                             Added
                         </div>
 
