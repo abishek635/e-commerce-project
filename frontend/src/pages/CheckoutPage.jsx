@@ -5,10 +5,11 @@ import './checkout-header.css'
 export function CheckoutPage() {
     return (
         <>
+        <title>checkout</title>
             <div class="checkout-header">
                 <div class="header-content">
                     <div class="checkout-header-left-section">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="logo" src="assets/logo.png" />
                             <img class="mobile-logo" src="assets/mobile-logo.png" />
                         </a>
@@ -16,7 +17,7 @@ export function CheckoutPage() {
 
                     <div class="checkout-header-middle-section">
                         Checkout (<a class="return-to-home-link"
-                            href="index.html">3 items</a>)
+                            href="/">3 items</a>)
                     </div>
 
                     <div class="checkout-header-right-section">
